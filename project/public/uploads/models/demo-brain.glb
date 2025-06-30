@@ -1,0 +1,2 @@
+// Sample 3D model placeholder - in production this would be a real GLB file
+// For demo purposes, the ModelViewer will create a procedural model if file not found
