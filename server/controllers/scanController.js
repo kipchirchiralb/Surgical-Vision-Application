@@ -134,6 +134,9 @@ function getRiskAssessment(scanType, file) {
     analysisDate: new Date().toISOString(),
   };
 
+
+
+
   return {
     level: riskLevel,
     details: details,
@@ -183,6 +186,8 @@ async function updateRiskAssessment(scanId, newData) {
 
   return assessment;
 }
+
+
 
 /**
  * Get batch risk assessments for multiple scans
